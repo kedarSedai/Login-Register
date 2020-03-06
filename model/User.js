@@ -15,7 +15,12 @@ const userSchema = new mongoose.Schema({
     },
     messages: [{
         type: String
-    }]
+    }],
+    
+    date: {
+        type: Date,
+        default: Date.now()
+    }
 
 });
 

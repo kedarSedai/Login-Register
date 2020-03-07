@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kedar",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

@@ -59,7 +59,7 @@ mongoose
     .then(() => console.log('MongoDB connected!!!'))
     .catch(err => console.log(err));
 
-    //Initial routes
+ //Initial routes
  app.get('/', (req, res) =>  res.render('index'));
     
 app.use('/', userRoutes);

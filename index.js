@@ -60,7 +60,7 @@ mongoose
     .catch(err => console.log(err));
 
     //Initial routes
- app.get('', (req, res) =>  res.render('index'));
+ app.get('/', (req, res) =>  res.render('index'));
     
 app.use('/', userRoutes);
 
